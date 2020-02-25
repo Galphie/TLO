@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "379684276115",
+    "firebase_url": "https://tloapp.firebaseio.com",
+    "project_id": "tloapp",
+    "storage_bucket": "tloapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379684276115:android:e92931fac726fb5835ca66",
+        "android_client_info": {
+          "package_name": "com.galphredsy.tlo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379684276115-qkpevumb3bffpr8k2knrmauoh8he67n5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galphredsy.tlo",
+            "certificate_hash": "d324fd40d3516541d102b96a379692ee40f4fd30"
+          }
+        },
+        {
+          "client_id": "379684276115-b7nsklabi4ulfdnskdlb7cid4jc15vif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjLt0gJ5L5o425dPrD3E4BMsanG_XHh80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379684276115-b7nsklabi4ulfdnskdlb7cid4jc15vif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
