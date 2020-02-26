@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(Call<Usuario> call, Response<Usuario> response) {
                         if (response.isSuccessful()){
                             Usuario u = response.body();
-                            cambiar(u.getId_usuario());
+                            startAct(u.getId_usuario());
                         }
                     }
                     @Override
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-    public void cambiar(String string){
+    public void startAct(String string){
         Intent intent = new Intent(this, Buscador.class);
         intent.putExtra("key", string);
         startActivity(intent);

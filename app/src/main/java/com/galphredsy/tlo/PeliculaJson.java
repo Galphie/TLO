@@ -7,7 +7,8 @@ public class PeliculaJson {
     private String plot;
     private String poster;
 
-    public PeliculaJson() { }
+    public PeliculaJson() {
+    }
 
     public PeliculaJson(String titulo, String anio, String director, String plot, String poster) {
         this.titulo = titulo;

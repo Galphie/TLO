@@ -7,6 +7,7 @@ public class Usuario {
     public Usuario() {
         super();
     }
+
     public Usuario(String id_usuario, String password) {
         super();
         this.id_usuario = id_usuario;

@@ -17,7 +17,7 @@ import java.util.List;
 
 public class Login extends AppCompatActivity {
 
-    private static final int RC_SIGN_IN = 1467 ;
+    private static final int RC_SIGN_IN = 1467;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +25,10 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    public void googleLogin(View view){
+    public void googleLogin(View view) {
         createSignInIntent();
     }
+
     public void createSignInIntent() {
         // [START auth_fui_create_intent]
         // Choose authentication providers
@@ -55,11 +56,11 @@ public class Login extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 // Successfully signed in
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-                Intent intent = new Intent(this,MainActivity.class);
+                Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
 
             } else {
-                Toast.makeText(this,"Fallito, nomás",Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Fallito, nomás", Toast.LENGTH_LONG).show();
             }
         }
     }

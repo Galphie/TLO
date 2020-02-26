@@ -4,10 +4,10 @@
 
     <item
         android:id="@+id/guardadas"
-        android:title="Mi lista"
+        android:title="Guardadas"
         app:showAsAction="always" />
     <item
         android:id="@+id/puntuadas"
-        app:showAsAction="always"
-        android:title="Puntuaciones" />
+        android:title="Puntuadas"
+        app:showAsAction="always" />
 </menu>
